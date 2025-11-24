@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" 
+    rel="stylesheet" 
+    integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" 
+    crossorigin="anonymous"> 
+    <title>Форма для заказа</title>
+</head>
+
+<body>
+<div class="container">
+<header class="card card-header">
+    <div class="card-body">
+        <h3 class="card-title text-center">Книжный магазин<br>творчества Зигмунда Фрейда</h3>
+    </div>
+</header>
+
+<div class="card">
+    <div class="card-body">
+        <ul class="nav nav-tabs">
+                    <li class="nav-item"> <a class="nav-link" href="./test.html">Начальная страница</a> </li>
+                    <li class="nav-item"> <a class="nav-link" href="./shop.html">Магазин</a></li>
+                    <li class="nav-item"> <a class="nav-link active" href="./form.html">Форма для заказа книг</a></li>
+        </ul>
+    </div>
+
+
+
+
+    <h5 class="card-title text-center" id="top_of _page">Форма для заказа товаров:</h5>
+    <form action="https://www.bing.com/search?" id="UserEnter" name="UserEnter" target="_blank">
+                    <input type="hidden" name="q" value="search" wfd-id="id0">
+
+                    <div class="mb-4 ms-4">
+                        <label for="Name" class="form-label">Ваше имя</label>
+                        <input type="text" class="form-control" id="NameInput" placeholder="Алексей" name="Name"  wfd-id="id1">
+                    </div>
+
+                    <div class="mb-4 ms-4">
+                        <label for="Second_name" class="form-label">Ваша Фамилия</label>
+                        <input type="text" class="form-control" id="Second_nameInput" placeholder="Алешин" name="Second_name"  wfd-id="id2">
+                    </div>
+
+
+                    <div class="row mb-4 ms-2">
+                        <div class="col-md-6">
+                            <label for="inputEmail4" class="form-label">Электронная почта</label>
+                            <input type="email" class="form-control" id="inputEmail" placeholder="info@gmail.com" name="email" wfd-id="id3">
+                        </div>
+                        <div class="col-md-6">
+                            <label for="Phone_number" class="form-label">Номер телефона</label>
+                            <input type="tel" class="form-control" id="inputPhone_number" placeholder="+7 (900) 878 15 15" name="Phone_number" wfd-id="id4">
+                        </div>
+                        <div class="col-12 mt-2">
+                            <label for="inputAddress" class="form-label">Адрес</label>
+                            <input type="text" class="form-control" id="inputAddress" placeholder="Улица Пушкина, д9. стр2. кв33. этаж 5" name="Address" wfd-id="id5">
+                        </div>
+                        <div class="col-12 mt-2">
+                            <label for="inputHome_type" class="form-label">Тип вашего места жительства</label>
+                            <input type="text" class="form-control" id="inputHome_type" placeholder="Квартира или частный дом" name="Home_type" wfd-id="id6">
+                        </div>
+                        <div class="col-md-6 mt-2">
+                            <label for="inputCity" class="form-label">Ваш город</label>
+                            <input type="text" class="form-control" id="inputCity" name="City" wfd-id="id7">
+                        </div>
+                        <div class="col-md-4 mt-2">
+                            <label for="inputBook" class="form-label">Книгу, которую вы хотите купить</label>
+                            <select id="inputBook" class="form-select" name="Book">
+                                <option selected="">Выбрать...</option>
+                                <option></option>
+                                <option></option>
+                                <option></option>
+                                <option></option>
+                                <option></option>
+                                <option></option>
+                                <option></option>
+                                <option></option>
+                            </select>
+                        </div>
+
+                        <div class="col-2 mt-4 ms-4">
+                            <div class="form-check">
+                                <input class="form-check-input" type="radio" name="Who_take" value="Another_person" id="radioDefault1" wfd-id="id9">
+                                <label class="form-check-label" for="radioDefault1">
+                                    Получит другой человек
+                                </label>
+                            </div>
+                        </div>
+                        <div class="col-2 mt-4">
+                            <div class="form-check">
+                                <input class="form-check-input" type="radio" name="Who_take" value="Myself" checked="" id="radioDefault2" wfd-id="id10">
+                                <label class="form-check-label" for="radioDefault2">
+                                    Получу я
+                                </label>
+                            </div>
+                        </div>
+
+
+                        <div class="col-12 mt-4">
+                            <div class="form-check">
+                                <input class="form-check-input" type="checkbox" id="gridCheck" wfd-id="id11" required>
+                                <label class="form-check-label" for="gridCheck">
+                                    Согласие на обработку персональных данных
+                                </label>
+                            </div>
+                        </div>
+
+                    </div>
+
+                    <div class="col-12 mb-4 ms-4">
+                        <button type="submit" class="btn btn-primary">Отправить</button>
+                    </div>
+                </form>
+    
+</div>
+</div>
+</body>
+
+<script crossorigin="anonymous" 
+integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" 
+src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js">
+</script>
+
+</html>
